@@ -1,6 +1,8 @@
 # Project Euler
 
-This is a repository for algorithm study group of lecle vietnam 
+This is a repository for algorithm study group of lecle vietnam.
+
+https://projecteuler.net/archives
 
 ## Project Rules
 
