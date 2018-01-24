@@ -3,10 +3,15 @@ function nUnderPrimeSum(n) {
   let sum = 0;
   let primes = [];
 
-  for (let i=2; i<=n; i++) {
+  for (let i = 2; i <= n; i++) {
 
     if (!primes.find(prime => !(i % prime))) {
-      primes.push(i);
+
+      if (i < Math.sqrt(n)) {
+
+        primes.push(i);
+      }
+
       sum += i;
     }
   }
